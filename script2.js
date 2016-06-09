@@ -1,5 +1,3 @@
-//<![CDATA[
-
 function removeHtmlTag(strx,chop){ 
  if(strx.indexOf("<")!=-1)
  {
@@ -30,5 +28,3 @@ function createSummaryAndThumb(pID){
  var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
  div.innerHTML = summary;
 }
-
-//]]>
