@@ -1,0 +1,82 @@
+
+.post{
+  box-shadow: 0px 1px 1px #dfdfdf;
+  padding: 10px;
+  overflow: hidden;
+}
+.post-title {
+  padding: 3px 10px;
+  font-size: 24px;
+  text-align: center;
+  color: #8C949D;
+  margin: 10px;
+  border-bottom: 1px solid rgb(140, 148, 157);
+}
+.post-body{
+  font-size: 16px;
+  font-weight: 500;
+}
+.post-body:hover{
+  color: #000;
+}
+.post-body img{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(48, 171, 213);
+}
+.post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{
+  padding: 10px;
+  color: #8C949D;
+}
+.post-body textarea {
+  margin: 10px 0px;
+  width: 97% !important;
+  direction: ltr;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-family: monospace !important;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  border: 0px;
+  background-color: rgb(232, 235, 240);
+  min-height: 100px;
+  overflow: hidden;
+}
+blockquote {
+  margin-left: 0;
+  font-style: italic;
+  position: relative;
+  font-size: 14px;
+  padding: 0px;
+  padding-left: 60px;
+  margin: 40px 0px;
+  border: 0px;
+  font-weight: 400;
+  color: #000;
+}
+blockquote:before {
+  font-family: FontAwesome;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  content: &quot;\f10d&quot;;
+  color: #fff;
+  background: #b8bdc3;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.post-timestamp , .post-labels{
+  float: right;
+  display: inline-block;
+  background-color: #30ABD5;
+  padding: 10px;
+  width: 97%;
+  color: #fff !important;
+}
+.post-timestamp a, .post-labels a{
+  color: #fff !important;
+}
