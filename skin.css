@@ -131,6 +131,12 @@ input, button, select, textarea {
 .thread-toggle a{
   color: #fff;
 }
+.comment-form p{
+  background-color: #30ABD5;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
 #social_networks{text-align:center;display:block;margin:15px auto;clear:both;}
 #social_networks ul {display:block;margin:0 auto;padding:0;list-style:none;}
 #social_networks li{text-align:center;display:inline-block;margin:0 5px;width:42px;
