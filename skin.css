@@ -246,6 +246,9 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
   content: '\f122';
   padding: 10px;
 }
+.widget-item-control{
+  display: none;
+}
 .blog-pager{
   padding: 15px;
   background-color: #f78297;
