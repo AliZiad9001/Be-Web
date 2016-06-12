@@ -264,13 +264,15 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
   overflow: hidden;
   padding: 11.5px 33px;
 }
-#FollowByEmail3 .follow-by-email-inner input[type="submit"]{
+#FollowByEmail3 .follow-by-email-inner input[type="submit"] {
   overflow: hidden;
-  padding: 12.5px 10px;
+  padding: 11px 0px;
   outline: 0;
   background-color: #237DAC;
   border: 0;
   color: #fff;
+  height: 48px;
+  border-radius: 0;
 }
 .widget-item-control{
   display: none;
