@@ -246,6 +246,32 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
   content: '\f122';
   padding: 10px;
 }
+#FollowByEmail3 {
+  background-color: #30ABD5;
+  padding: 10px;
+  color: #fff !important;
+}
+#FollowByEmail3 .title {
+  color: #fff;
+  text-align: center;
+  border: 0;
+}
+#FollowByEmail3 .follow-by-email-inner{
+  padding: 10px;
+}
+#FollowByEmail3 .follow-by-email-inner input[type="text"]{
+  width: 67%;
+  overflow: hidden;
+  padding: 11.5px 33px;
+}
+#FollowByEmail3 .follow-by-email-inner input[type="submit"]{
+  overflow: hidden;
+  padding: 12.5px 10px;
+  outline: 0;
+  background-color: #237DAC;
+  border: 0;
+  color: #fff;
+}
 .widget-item-control{
   display: none;
 }
