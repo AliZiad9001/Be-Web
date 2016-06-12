@@ -228,21 +228,21 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
 .PopularPosts .item-snippet{
   display: none;
 }
-.LinkList a{
+.LinkList ul li a{
   padding: 7px 15px;
   color: #fff;
   background-color: #30ABD5;
   display: block;
   font-size: 14px;
 }
-.LinkList a:hover{
+.LinkList ul li a:hover{
   background-color: #0088cc;
   padding: 7px 30px;
 }
-.LinkList a:hover:before{
+.LinkList ul li a:hover:before{
   content: '\f135';
 }
-.LinkList a:before {
+.LinkList ul li a:before {
   content: '\f122';
   padding: 10px;
 }
