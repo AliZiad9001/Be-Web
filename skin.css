@@ -215,7 +215,7 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
 .PopularPosts .item-content{
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 .PopularPosts .item-thumbnail {
@@ -223,10 +223,28 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
   margin: 5px;
 }
 .PopularPosts .item-thumbnail a img{
-  width: 90px;
+  width: 80px;
 }
 .PopularPosts .item-snippet{
   display: none;
+}
+.LinkList a{
+  padding: 7px 15px;
+  color: #fff;
+  background-color: #30ABD5;
+  display: block;
+  font-size: 14px;
+}
+.LinkList a:hover{
+  background-color: #0088cc;
+  padding: 7px 30px;
+}
+.LinkList a:hover:before{
+  content: '\f135';
+}
+.LinkList a:before {
+  content: '\f122';
+  padding: 10px;
 }
 .blog-pager{
   padding: 15px;
