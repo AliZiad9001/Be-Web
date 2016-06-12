@@ -80,6 +80,24 @@ input, button, select, textarea {
   word-wrap: break-word;
 }
 .posts-wrapper {background:transparent;color:#4b5f65;float:right;width:67%;margin:0 0 10px;}
+.status-msg-wrap {
+  font-size: 110%;
+  width: 90%;
+  margin: 10px auto;
+  position: relative;
+  padding: 10px;
+  border: 1px solid rgb(48, 171, 213);
+}
+.status-msg-body {
+  text-align: center;
+  padding: 5px;
+  width: 95%;
+  position: absolute;
+  z-index: 4;
+  background: #fff;
+  color: #30ABD5;
+  border: 0;
+}
 .left-wrapper{
   background: transparent;
   float: left;
