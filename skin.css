@@ -194,6 +194,22 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
   content: "\f02c";
   padding: 0 0 0 10px;
 }
+.PopularPosts .item-content{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.PopularPosts .item-thumbnail {
+  float: right;
+  margin: 5px;
+}
+.PopularPosts .item-thumbnail a img{
+  width: 90px;
+}
+.PopularPosts .item-snippet{
+  display: none;
+}
 .blog-pager{
   padding: 15px;
   background-color: #f78297;
