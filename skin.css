@@ -180,6 +180,20 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
 .sidebar-wrapper ul, .sidebar-wrapper ol,.sidebar-wrapper2 ul, .sidebar-wrapper2 ol {list-style-type:none;margin:0 0 0 0;padding:10px;padding-top:0;}
 .sidebar-wrapper li,.sidebar-wrapper2 li {margin:5px 0;padding:0 0 0 0;}
 .sidebar-wrapper h2 span,.sidebar-wrapper2 h2 span {padding:6px 12px;border:1px solid #d9dce1;display:inline;}
+.list-label-widget-content ul li a {
+  padding: 7px 15px;
+  color: #fff;
+  background-color: #30ABD5;
+  display: block;
+}
+.list-label-widget-content ul li a:hover {
+  background-color: #0088cc;
+  padding: 7px 30px;
+}
+.list-label-widget-content ul li a:before {
+  content: "\f02c";
+  padding: 0 0 0 10px;
+}
 .blog-pager{
   padding: 15px;
   background-color: #f78297;
