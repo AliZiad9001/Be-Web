@@ -305,10 +305,10 @@ display:block;background-color:rgba(0,0,0,0.1);color:#fff;width:35px;height:35px
 footer{
   clear: both;
 }
-.copyright{
+.copyright {
   overflow: hidden;
   background: #30abd5;
-  padding: 12px 5px;
+  padding: 12px 25px;
   margin: 15px 0 0 0;
   color: #fff;
 }
