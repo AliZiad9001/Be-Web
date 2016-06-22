@@ -30,6 +30,9 @@ body {
 ::-webkit-scrollbar-thumb:active {
   background-color: #EFA666;
 }
+img{
+  transition: 0.2s;
+}
 img:hover {
   filter: grayscale(100%);
   -o-filter: grayscale(100%);
