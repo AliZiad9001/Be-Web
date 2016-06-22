@@ -13,7 +13,7 @@
   border-bottom: 1px solid rgb(140, 148, 157);
 }
 .post-body{
-  font-size: 13px;
+  font-size: 13px !important;
   font-weight: normal;
 }
 .post-body div:hover{
