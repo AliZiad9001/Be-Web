@@ -30,6 +30,13 @@ body {
 ::-webkit-scrollbar-thumb:active {
   background-color: #EFA666;
 }
+img:hover {
+  filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
 a{
   text-decoration: none;
   color: #fff;
