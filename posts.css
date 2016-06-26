@@ -23,9 +23,15 @@
   padding: 10px;
   border: 1px solid rgb(48, 171, 213);
 }
-.post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{
-  padding: 10px;
-  color: #8C949D;
+.post-body h1, .post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {
+  color: #000000;
+  background-color: #ddd;
+  padding: 10px 10px;
+  border-right: 5px solid rgb(48, 171, 213);
+  margin-bottom: 10px;
+}
+.post-body h1:hover, .post-body h2:hover, .post-body h3:hover, .post-body h4:hover, .post-body h5:hover, .post-body h6:hover {
+  border-right: 5px solid rgb(0, 153, 204);
 }
 .post-body pre{
   background: #f8f8f8;
