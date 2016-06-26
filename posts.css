@@ -6,15 +6,14 @@
 }
 .post-title {
   padding: 3px 10px;
-  font-size: 24px;
+  font-size: x-large;
   text-align: center;
   color: #8C949D;
   margin: 10px;
-  border-bottom: 1px solid rgb(140, 148, 157);
 }
-.post-body{
-  font-size: 13px !important;
-  font-weight: normal;
+.post-body {
+  font-size: 15px !important;
+  font-weight: 600;
 }
 .post-body div:hover{
   color: #000;
