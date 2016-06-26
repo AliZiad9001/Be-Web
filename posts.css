@@ -41,6 +41,20 @@
   font-family: Courier !important;
   font-weight: normal;
 }
+.post-body button{
+  padding: 10px 25px;
+  border: 0;
+  background-color: #30ABD5;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.post-body button:hover{
+  background-color: #0099cc;
+  cursor: pointer;
+}
 blockquote {
   margin-left: 0;
   font-style: italic;
